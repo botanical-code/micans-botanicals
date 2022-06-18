@@ -1,0 +1,12 @@
+.container {
+    margin: 5px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    app-category {
+        width: 100%;
+        max-width: 960px;
+    }
+}
