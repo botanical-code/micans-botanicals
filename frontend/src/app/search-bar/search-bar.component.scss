@@ -2,10 +2,13 @@
     padding: 5px;
     border: 1px solid;
     display: flex;
+    flex-shrink: 1;
     gap: 5px;
 
     input {
         border: none;
+        font-family: inherit;
+        flex-shrink: 1;
     }
 
     img {

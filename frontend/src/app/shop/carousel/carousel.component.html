@@ -1,5 +1,7 @@
 <div class="swipe">
-    <div class="product" *ngFor="let product of products" >
-        <app-product [product]="product"></app-product>
-    </div>
+    <a [routerLink]="['../products', product.id]" *ngFor="let product of products">
+        <div class="product">
+            <app-product [product]="product"></app-product>
+        </div>
+    </a>
 </div>

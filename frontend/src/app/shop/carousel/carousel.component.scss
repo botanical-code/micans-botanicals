@@ -2,9 +2,12 @@
     display: flex;
     gap: 10px;
     overflow-x: scroll;
+    padding-bottom: 10px;
 
-    .product {
-        width: 70%;
+    a {
+        width: 55%;
+        max-width: 250px;
         flex-shrink: 0;
+        text-decoration: none;
     }
 }
