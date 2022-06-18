@@ -3,11 +3,30 @@
     padding: 10px;
     border: 1px solid;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
-    img {
-        width: 1.5em;
-        height: 1.5em;
+    .content {
+        width: 100%;
+        max-width: 960px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+    
+            img {
+                width: 1.5em;
+                height: 1.5em;
+                cursor: pointer;
+
+                &:active {
+                    filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.4));
+                }
+            }
+        }
     }
 }

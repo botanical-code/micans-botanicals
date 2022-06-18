@@ -3,9 +3,15 @@
     display: flex;
     align-items: center;
     gap: 2px;
-    
+    cursor: pointer;
+
+
     img {
         width: 1.8em;
         height: 1.8em;
     }
+}
+
+.container:active {
+    filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.4));
 }
