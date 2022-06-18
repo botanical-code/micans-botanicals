@@ -1,0 +1,5 @@
+<p>{{category.name}}</p>
+<p>{{category.description}}</p>
+<div *ngFor="let product of category.products">
+    <app-product [product]="product"></app-product>
+</div>

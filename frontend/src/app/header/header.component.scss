@@ -2,8 +2,11 @@
     margin: 5px;
     padding: 10;
     border: 1px solid;
+    display: flex;
+    justify-content: center;
 
-    p {
+    span {
         text-align: center;
+        font-size: large;
     }
 }

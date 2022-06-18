@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { CartComponent } from './navigation-bar/cart/cart.component';
+import { ShopComponent } from './shop/shop.component';
+import { CategoryComponent } from './shop/category/category.component';
+import { ProductComponent } from './shop/product/product.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CartComponent } from './navigation-bar/cart/cart.component';
     HeaderComponent,
     NavigationBarComponent,
     SearchBarComponent,
-    CartComponent
+    CartComponent,
+    ShopComponent,
+    CategoryComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
