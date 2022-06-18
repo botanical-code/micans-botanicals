@@ -1,9 +1,13 @@
-#wrapper{
+.container {
     margin: 5px;
     padding: 10px;
     border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    p {
-        text-align: center;
+    img {
+        width: 1.5em;
+        height: 1.5em;
     }
 }
