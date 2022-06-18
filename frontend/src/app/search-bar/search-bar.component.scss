@@ -1,0 +1,23 @@
+.container {
+    padding: 5px;
+    border: 1px solid;
+    display: flex;
+    flex-shrink: 1;
+    gap: 5px;
+
+    input {
+        border: none;
+        font-family: inherit;
+        flex-shrink: 1;
+    }
+
+    img {
+        width: 1.5em;
+        height: 1.5em;
+        cursor: pointer;
+    }
+
+    img:active {
+        filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.4));
+    }
+}
