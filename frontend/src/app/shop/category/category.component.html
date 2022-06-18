@@ -1,6 +1,4 @@
-<p>{{category.name}}</p>
-    <p>{{category.description}}</p>
-    <div *ngFor="let product of category.products">
-        <app-product [product]="product"></app-product>
-    </div>
+<h3>{{category.name}}</h3>
+<p>{{category.description}}</p>
+<app-carousel [products]="category.products"></app-carousel>
 

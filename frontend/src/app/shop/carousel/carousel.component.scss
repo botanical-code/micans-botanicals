@@ -1,0 +1,10 @@
+.swipe {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+
+    .product {
+        width: 70%;
+        flex-shrink: 0;
+    }
+}
