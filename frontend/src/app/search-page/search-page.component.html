@@ -2,5 +2,6 @@
     <div class="content">
         <h3>No results...</h3>
         <h4>Your search: {{currentSearch}}</h4>
+        <app-search-result *ngFor="let result of results" ></app-search-result>
     </div>
 </div>

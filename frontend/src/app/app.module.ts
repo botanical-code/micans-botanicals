@@ -15,6 +15,8 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { MenuComponent } from './menu/menu.component';
 import { CategoryPageComponent } from './category-page/category-page.component';
 import { SearchPageComponent } from './search-page/search-page.component';
+import { SearchResultComponent } from './search-result/search-result.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,11 +32,13 @@ import { SearchPageComponent } from './search-page/search-page.component';
     ProductPageComponent,
     MenuComponent,
     CategoryPageComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    SearchResultComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
