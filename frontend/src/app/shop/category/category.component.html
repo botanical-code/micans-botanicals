@@ -1,4 +1,4 @@
 <h3>{{category.name}}</h3>
 <p>{{category.description}}</p>
-<app-carousel [products]="category.products"></app-carousel>
+<app-carousel *ngIf="products" [products]="products"></app-carousel>
 

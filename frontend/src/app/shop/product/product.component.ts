@@ -1,12 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
-export type Product = {
-  id?: number
-  name?: string
-  description?: string
-  price?: number
-  imageSrc?: string
-}
+import { Product } from 'src/app/product';
 
 @Component({
   selector: 'app-product',
