@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    gap: 1em;
+    
+
+    img {
+        object-fit: contain;
+        height: 100px;
+        width: auto;
+    }
+
+    .right {
+        h4 {
+            margin: 5px 0;
+        }
+
+        p {
+            margin: 5px 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+        }
+
+        .pricing {
+            display: flex;
+            gap: 1em;
+
+            p {
+                max-width: 7em;
+            }
+
+            button {
+                background-color: black;
+                color: white;
+                border: none;
+                font-family: inherit;
+                padding: 0 1em;
+            }
+        }
+    }
+}

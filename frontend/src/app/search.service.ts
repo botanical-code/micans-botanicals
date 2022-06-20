@@ -23,35 +23,35 @@ export class SearchService {
         name: "fake product result",
         price: 24.99,
         description: "Some fake description that's pretty long and perhaps needs to be truncated.",
-        imageSrc: "",
+        imageSrc: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_snake-plant-laurentii_large_gallery_all_all_01.jpg?v=1653528539",
       },
       {
         id: 0,
         name: "fake product result",
         price: 24.99,
         description: "Some fake description that's pretty long and perhaps needs to be truncated.",
-        imageSrc: "",
+        imageSrc: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_snake-plant-laurentii_large_gallery_all_all_01.jpg?v=1653528539",
       },
       {
         id: 0,
         name: "fake product result",
         price: 24.99,
         description: "Some fake description that's pretty long and perhaps needs to be truncated.",
-        imageSrc: "",
+        imageSrc: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_snake-plant-laurentii_large_gallery_all_all_01.jpg?v=1653528539",
       },
       {
         id: 0,
         name: "fake product result",
         price: 24.99,
         description: "Some fake description that's pretty long and perhaps needs to be truncated.",
-        imageSrc: "",
+        imageSrc: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_snake-plant-laurentii_large_gallery_all_all_01.jpg?v=1653528539",
       },
       {
         id: 0,
         name: "fake product result",
         price: 24.99,
         description: "Some fake description that's pretty long and perhaps needs to be truncated.",
-        imageSrc: "",
+        imageSrc: "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_snake-plant-laurentii_large_gallery_all_all_01.jpg?v=1653528539",
       }
     ])
   }
