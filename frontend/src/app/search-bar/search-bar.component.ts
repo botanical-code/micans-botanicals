@@ -30,14 +30,14 @@ export class SearchBarComponent implements OnInit {
    */
   handleSearchChange(event: any): void {
     if (event.target.value.length < 3) {
-      this.searchService.query = "";
+      this.searchService.query.next("");
       return
     }
 
     clearTimeout(this.inputTimer)
 
     this.inputTimer = setTimeout(() => {
-      this.searchService.query = event.target.value;
+      this.searchService.query.next(event.target.value);
     }, 500)
   }
 

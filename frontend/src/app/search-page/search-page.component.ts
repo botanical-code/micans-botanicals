@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { SearchService } from '../search.service';
 
 @Component({
   selector: 'app-search-page',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-page.component.scss']
 })
 export class SearchPageComponent implements OnInit {
-
-  constructor() { }
+  currentSearch: string = "";
+  constructor(private searchService: SearchService) { }
 
   ngOnInit(): void {
+    this.searchService.query.subscribe({
+      next: (value: string) => {this.currentSearch = value}
+    })
   }
 
 }
