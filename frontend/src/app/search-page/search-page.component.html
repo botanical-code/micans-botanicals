@@ -1,6 +1,6 @@
 <div class="container">
     <div class="content">
-        <h3>Search Results</h3>
+        <h3>Showing results for: "{{currentSearch}}"</h3>
         <hr>
         <h4 *ngIf="!results">Nothing here yet...</h4>
         <app-search-result *ngFor="let result of results" [product]="result"></app-search-result>

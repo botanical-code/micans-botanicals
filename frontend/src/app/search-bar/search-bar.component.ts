@@ -15,7 +15,7 @@ export class SearchBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  handleSearchFocus(event: any): void {
+  handleSearchFocus(_event: any): void {
     if (this.router.url.includes('search')) {
       return
     }
