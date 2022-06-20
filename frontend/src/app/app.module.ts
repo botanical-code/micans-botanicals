@@ -13,6 +13,7 @@ import { ProductComponent } from './shop/product/product.component';
 import { CarouselComponent } from './shop/carousel/carousel.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { MenuComponent } from './menu/menu.component';
+import { CategoryPageComponent } from './category-page/category-page.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MenuComponent } from './menu/menu.component';
     ProductComponent,
     CarouselComponent,
     ProductPageComponent,
-    MenuComponent
+    MenuComponent,
+    CategoryPageComponent
   ],
   imports: [
     BrowserModule,

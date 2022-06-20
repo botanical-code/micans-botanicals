@@ -1,1 +1,11 @@
-<p>menu works!</p>
+<div class="container">
+    <div class="content">
+        <div class="top">
+            <a routerLink="/login"><h3>Login</h3></a>
+            <img src="assets/icons/x.svg" (click)="goBack()">
+        </div>
+        <a routerLink="/shop"><h1>Home</h1></a>
+        <a *ngFor="let category of categories" [routerLink]="['/categories', category.id]"><h1>{{category.name}}</h1></a>
+        <a routerLink="/inquiries"><h1>Inquiries</h1></a>
+    </div>
+</div>
