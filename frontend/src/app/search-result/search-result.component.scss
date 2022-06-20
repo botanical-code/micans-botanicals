@@ -1,21 +1,22 @@
 .container {
     display: flex;
+    align-items: flex-start;
     gap: 1em;
     
 
     img {
         object-fit: contain;
-        height: 100px;
-        width: auto;
+        height: auto;
+        width: 75px;
     }
 
     .right {
         h4 {
-            margin: 5px 0;
+            margin: 0 0 10px 0;
         }
 
         p {
-            margin: 5px 0;
+            margin: 0 0 10px 0;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;  
