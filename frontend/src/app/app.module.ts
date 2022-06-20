@@ -14,6 +14,7 @@ import { CarouselComponent } from './shop/carousel/carousel.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { MenuComponent } from './menu/menu.component';
 import { CategoryPageComponent } from './category-page/category-page.component';
+import { SearchPageComponent } from './search-page/search-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CategoryPageComponent } from './category-page/category-page.component';
     CarouselComponent,
     ProductPageComponent,
     MenuComponent,
-    CategoryPageComponent
+    CategoryPageComponent,
+    SearchPageComponent
   ],
   imports: [
     BrowserModule,
