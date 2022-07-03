@@ -19,7 +19,7 @@ export class CatalogService {
           description: "Some category description that's pretty long and needs to wrap around.",
         },
         {
-          id: 0,
+          id: 1,
           name: "Some Category",
           description: "Some category description that's pretty long and needs to wrap around.",
         }

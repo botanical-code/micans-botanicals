@@ -1,0 +1,12 @@
+.category-page {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .content {
+        width: 100%;
+        max-width: 960px;
+    }
+}
