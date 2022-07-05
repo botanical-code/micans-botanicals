@@ -1,4 +1,4 @@
 <div class="container">
-    <input type="text" placeholder="Search">
+    <input type="text" placeholder="Search" (focus)="handleSearchFocus($event)" (keydown)="handleSearchChange($event)">
     <img src="assets/icons/magnifier.svg">
 </div>

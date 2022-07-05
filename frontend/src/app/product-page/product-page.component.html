@@ -1,1 +1,12 @@
-<p>product-page works with id {{id}}</p>
+<div class="product-page">
+    <div class="content">
+        <img src="{{product.imageSrc}}">
+        <div class="product-info">
+            <h1>{{product.name}}</h1>
+            <h4>{{product.description}}</h4>
+            <span>{{product.price | currency}} x </span>
+            <input type="number" pattern="[0-9]+" size="2" min="1" max="99" value="1">
+            <button>add to cart</button>
+        </div>
+    </div>
+</div>

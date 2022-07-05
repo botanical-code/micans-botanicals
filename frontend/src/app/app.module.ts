@@ -12,6 +12,11 @@ import { CategoryComponent } from './shop/category/category.component';
 import { ProductComponent } from './shop/product/product.component';
 import { CarouselComponent } from './shop/carousel/carousel.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { MenuComponent } from './menu/menu.component';
+import { CategoryPageComponent } from './category-page/category-page.component';
+import { SearchPageComponent } from './search-page/search-page.component';
+import { SearchResultComponent } from './search-result/search-result.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,11 +29,16 @@ import { ProductPageComponent } from './product-page/product-page.component';
     CategoryComponent,
     ProductComponent,
     CarouselComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    MenuComponent,
+    CategoryPageComponent,
+    SearchPageComponent,
+    SearchResultComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

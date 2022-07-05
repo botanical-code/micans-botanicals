@@ -1,0 +1,6 @@
+<div class="category-page">
+    <div class="content">
+        <h3>{{category.name}}</h3>
+        <app-search-result *ngFor="let product of products" [product]="product"></app-search-result>
+    </div>
+</div>
